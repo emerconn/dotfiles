@@ -30,6 +30,8 @@ vscode `
 wireguard `
 wsl2
 
+# set Windows Terminal Font to JetBrainsMonoNL Nerd Font Mono
+
 # install Discord
 # install SpotX: https://github.com/SpotX-Official/SpotX
 # install Evo4 drivers: https://evo.audio/products/audio-interfaces/evo-4/downloads/
