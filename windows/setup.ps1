@@ -30,7 +30,7 @@ vscode `
 wireguard `
 wsl2
 
-# set Windows Terminal Font to JetBrainsMonoNL Nerd Font Mono
+# set Windows Terminal font to JetBrainsMonoNL Nerd Font Mono
 
 # install Discord
 # install Sideloadly
