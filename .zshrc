@@ -1,8 +1,9 @@
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH" # for brew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH" # for krew
-export GOPATH="$HOME/go" # for golang
-export PATH="$GOPATH/bin:$PATH" # for golang
-export PATH="/usr/local/go/bin:$PATH" # for golang
+
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$PATH"
+export PATH="/usr/local/go/bin:$PATH"
 
 source <(kubectl completion zsh)
 source <(helm completion zsh)
