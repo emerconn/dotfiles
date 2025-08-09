@@ -1,3 +1,7 @@
+# wsl stuff
+# https://gist.github.com/zachrank/fc71ed301e9823264ddac4fb77975735
+# export BROWSER=wslview # requires wslu package
+
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH" # for brew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH" # for krew
 
