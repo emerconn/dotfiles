@@ -1,34 +1,37 @@
 # install chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
+# general packages
 choco install -y `
 7zip `
-asio4all `
-crystaldiskmark `
-cuda `
 docker-desktop `
 Everything `
 GoogleChrome `
-hwinfo `
-iTunes `
 lsd `
 microsoftazurestorageexplorer `
 nerd-fonts-jetbrainsmono `
-nvidia-app `
 obsidian `
-obs-studio `
 openssl `
-plexmediaserver `
 powershell-core `
-qbittorrent `
-steam `
 sysinternals `
-tailscale `
 virtualbox `
 vlc `
 vscode `
-wireguard `
 wsl2
+
+# personal packages
+choco install -y `
+asio4all `
+cuda `
+hwinfo `
+iTunes `
+nvidia-app `
+obs-studio `
+plexmediaserver `
+qbittorrent `
+steam `
+tailscale `
+wireguard
 
 # set Windows Terminal font to JetBrainsMonoNL Nerd Font Mono
 
